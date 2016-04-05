@@ -259,7 +259,7 @@ int Authentication(const char *UserName, const char *Password, const char *Devic
 			{
 				DPRINTF("[%d] Server: Success.\n", captured[19]);
 				// 刷新IP地址
-				system("njit-RefreshIP");
+				//system("njit-RefreshIP");
 			}
 			else
 			{
